@@ -18,8 +18,10 @@ const Resume: React.FC<{ data: ResumeData }> = ({ data }) => {
   const [soft, setSoft] = useState("SOFT SKILLS");
   const [contact, setContact] = useState("CONTACT");
 
+
   return (
     <div className="resume">
+      <h1>resume</h1>
       <div className="name">
         <div
           style={{
