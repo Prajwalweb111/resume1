@@ -13,13 +13,15 @@ const Resume: React.FC<{ data: ResumeData }> = ({ data }) => {
   } = data;
 
   const [name, setName] = useState(data.name);
-  const [objective, setObjective] = useState("OBJECTIVE1");
-  const [tec, setTec] = useState("TECHNICAL SKILLS1");
+  const [objective, setObjective] = useState("OBJECTIVE");
+  const [tec, setTec] = useState("TECHNICAL SKILLS");
   const [soft, setSoft] = useState("SOFT SKILLS");
   const [contact, setContact] = useState("CONTACT");
 
+
   return (
     <div className="resume">
+      <h1>resume</h1>
       <div className="name">
         <div
           style={{
